@@ -10,6 +10,7 @@
   --heading-color:  #353430;
   --main-heading-color: #FFC2E6;
   --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #FFF1F7;
 } 
 
 .theme_light .decor {
@@ -42,6 +43,7 @@
     --heading-color:  #353430;
     --main-heading-color: #FFC2E6;
     --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #FFF1F7;
     }
   
     .theme_auto .decor {

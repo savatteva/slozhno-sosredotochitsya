@@ -1,5 +1,216 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-image: var(--bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: var(--main-text-color);
+  padding: 20px;
+}
+
+.header {
+  display: grid;
+  gap: 20px;
+  height: 100vh;
+  position: relative;
+}
+
+.decorated-zone::after,
+.decorated-zone::before {
+  content: '';
+  display: block;
+  position: absolute;
+  border: 1px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+}
+
+.decorated-zone::after {
+  border-top: none;
+  border-right: none;
+  left: 0;
+  bottom: 0;
+}
+
+.decorated-zone::before {
+  border-left: none;
+  border-bottom: none;
+  right: 0;
+  top: 0;
+}
+
+.header__theme-menu {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  gap: 11.5px;
+}
+
+.header__theme-menu-button {
+  padding: 0.5px 12px;
+  color: var(--accent-color);
+  background-color: transparent;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid var(--accent-color);
+}
+
+.main__title {
+  color: var(--main-heading-color);
+  font-family: inherit;
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  text-shadow: 4px 4px 0 var(--accent-color);
+  line-height: 82.5%;
+  font-style: inherit;
+  font-weight: bold;
+  align-self: center;
+  justify-self: flex-start;
+}
+
+.header__subtitle {
+  color: var(--heading-color);
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-weight: bold;
+  max-inline-size: 491px;
+  justify-self: flex-end;
+  align-self: center;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+}
+
+.section {
+  margin: 80px 0;
+}
+
+.section-layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+
+.section__main-title {
+  color: var(--accent-color);
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+}
+
+.article__subtitle {
+  color: var(--heading-color);
+  margin-block-end: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+}
+
+.section__listing {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-what__listing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.article__heading {
+  font-weight: normal;
+  color: var(--heading-color);
+  margin-block-end: 10px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+}
+
+.add-margin {
+  margin-block-end: 20px;
+}
+
+.images-layout {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: (3, 1fr);
+}
+
+.images-layout__first {
+  grid-column: span 2;
+}
+
+.images-layout__second {
+  grid-row: span 2;
+}
+
+.images-layout__third {
+  grid-row: span 2;
+}
+
+.images-layout__fifth {
+  grid-column: span 2;
+}
+
+.image {
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.image_sunset {
+  inline-size: 649px;
+  block-size: 260px;
+}
+
+.image_ice {
+  inline-size: 315px;
+  block-size: 595px;
+}
+
+.image-tape {
+  inline-size: 315px;
+  block-size: 768px;
+}
+
+.image-books {
+  inline-size: 315px;
+  block-size: 315px;
+}
+
+.image-street {
+  inline-size: 649px;
+  block-size: 428px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 100vh;
+  position: relative;
 }

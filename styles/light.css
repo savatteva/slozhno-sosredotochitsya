@@ -13,7 +13,7 @@
 } 
 
 .theme_light .decor {
-  display: none; 
+  display: none;
 }
 
 .page.theme_light {
@@ -45,6 +45,6 @@
     }
   
     .theme_auto .decor {
-      display: none; 
+      display: none;
     }
 }

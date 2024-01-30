@@ -178,7 +178,7 @@ a:focus-visible {
   font-style: inherit;
 }
 
-@media (768px < width < 1024px) {
+@media (768px <= width <= 1024px) {
   .section__main-title {
     max-inline-size: 236px;
   }

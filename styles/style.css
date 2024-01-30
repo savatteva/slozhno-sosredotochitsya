@@ -137,6 +137,12 @@ a:focus-visible {
   align-self: center;
 }
 
+@media (width <= 768px) {
+  .header__subtitle {
+    max-inline-size: 364px;
+  }
+}
+
 .title-decor {
   background-color: var(--accent-color);
 }

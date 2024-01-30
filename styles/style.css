@@ -14,7 +14,7 @@
   position: relative;
   grid-template-rows: 1fr auto 1fr;
   margin: 20px;
-  block-size: 98vh;
+  block-size: 100vh;
 }
 
 @media (width <= 375px) {

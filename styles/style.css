@@ -6,7 +6,7 @@
   background-attachment: fixed;
   background-color: var(--bg-color);
   color: var(--main-text-color);
-  block-size: 98vh;
+  block-size: 100vh;
 }
 
 @media (width < 768px) {
@@ -19,8 +19,7 @@
   display: grid;
   position: relative;
   grid-template-rows: 1fr auto 1fr;
-  margin-block-start: 20px;
-  margin-block-end: 20px;
+  margin: 20px;
   block-size: 95vh;
 }
 

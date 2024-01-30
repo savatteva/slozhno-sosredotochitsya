@@ -17,9 +17,8 @@
 
 .header {
   display: grid;
-  gap: 20px;
   position: relative;
-  grid-template-rows: 300px 130px 300px;
+  grid-template-rows: repeat(3, minmax(min-content, 1fr));
   block-size: 100vh;
 }
 

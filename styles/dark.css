@@ -1,9 +1,16 @@
+.page.theme_dark {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+}
+
 :root .theme_dark {
   --accent-color: #FF0070;
   --main-text-color: #F1B2CE;
   --heading-color: #000028;
   --main-heading-color: #DB00FF;
-} 
+}
 
 .page.theme_dark {
   background-image: var(--bg-image);
@@ -59,5 +66,5 @@
     --bg-color: #000028;
     --button-color: #FF0070;
   }
-  
+
 }

@@ -7,7 +7,7 @@
   background-color: var(--bg-color);
   color: var(--main-text-color);
   padding: 20px;
-  block-size: 100vh;
+  block-size: 95vh;
 }
 
 @media (width < 768px) {
@@ -115,7 +115,6 @@ a:focus-visible {
   line-height: 82.5%;
   font-style: inherit;
   font-weight: bold;
-  justify-self: flex-start;
   margin-inline-start: -20px;
 }
 
@@ -240,7 +239,6 @@ a:focus-visible {
     gap: 10px;
   }
 }
-
 
 .images-layout__first {
   grid-column: span 2;

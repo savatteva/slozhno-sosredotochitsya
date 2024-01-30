@@ -14,7 +14,13 @@
   position: relative;
   grid-template-rows: 1fr auto 1fr;
   margin: 20px;
-  block-size: 100vh;
+  block-size: 98vh;
+}
+
+@media (width <= 375px) {
+  .header {
+    margin: 10px;
+  }
 }
 
 .decorated-zone::after,

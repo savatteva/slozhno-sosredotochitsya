@@ -19,7 +19,7 @@
 .header {
   display: grid;
   position: relative;
-  grid-template-rows: 0.75fr auto 0.75fr;
+  grid-template-rows: 1fr auto 1fr;
   block-size: 100vh;
 }
 
@@ -115,7 +115,6 @@ a:focus-visible {
   line-height: 82.5%;
   font-style: inherit;
   font-weight: bold;
-  align-self: center;
   justify-self: flex-start;
   margin-inline-start: -20px;
 }

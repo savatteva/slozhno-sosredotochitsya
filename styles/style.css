@@ -183,7 +183,7 @@ a:focus-visible {
   }
 }
 
-@media (width <= 768px) {
+@media (375px < width <= 768px) {
   .section__main-title {
     max-inline-size: 236px;
   }

@@ -8,7 +8,7 @@
   --button-color: #353430;
 } 
 
-.theme_light .decor {
+.decor {
   display: none;
 }
 
@@ -42,7 +42,7 @@
     --button-color: #353430;
     }
   
-    .theme_auto .decor {
+    .decor {
       display: none;
     }
 

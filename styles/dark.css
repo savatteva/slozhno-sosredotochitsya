@@ -3,6 +3,8 @@
   --main-text-color: #F1B2CE;
   --heading-color: #000028;
   --main-heading-color: #DB00FF;
+  --bg-image: url(../images/cover-image-dark.png);
+  --button-color: #FF0070;
 }
 
 .page.theme_dark {

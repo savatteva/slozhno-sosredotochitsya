@@ -45,13 +45,13 @@
 
 .header__theme-menu-button {
   padding: 1.5px 13px;
-  color: var(--accent-color);
   background-color: transparent;
   border: none;
+  color: var(--button-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--button-color);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -63,6 +63,6 @@
     --heading-color: #000028;
     --main-heading-color: #DB00FF;
     --bg-color: #000028;
+    --button-color: #FF0070;
   }
-    
 }

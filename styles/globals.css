@@ -10,7 +10,6 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  padding: 0;
   font-family: 'IBM Plex mono', sans-serif;
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   line-height: 130%;
@@ -26,9 +25,11 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
 }
 
-ul {
+ul,
+li {
   margin: 0;
   padding: 0;
   list-style: none;

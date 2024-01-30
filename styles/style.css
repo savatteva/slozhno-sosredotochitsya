@@ -158,16 +158,6 @@ a:focus-visible {
   background-color: var(--accent-color);
 }
 
-.first__section {
-  margin: 60px 0;
-}
-
-@media (width <= 375px) {
-  .first__section {
-    margin: 40px 0;
-  }
-}
-
 .section {
   margin: 80px 0;
 }
@@ -312,4 +302,5 @@ a:focus-visible {
   align-items: center;
   block-size: 100vh;
   position: relative;
+  padding: 20px;
 }

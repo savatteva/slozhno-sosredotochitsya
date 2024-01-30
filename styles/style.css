@@ -159,7 +159,7 @@ a:focus-visible {
 }
 
 .section {
-  margin: 80px 0;
+  margin: 60px 0;
 }
 
 @media (width <= 375px) {

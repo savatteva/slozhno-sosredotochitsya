@@ -21,8 +21,15 @@
   align-items: center;
   gap: 10px;
   position: absolute;
-  right: 9px;
-  top: 0;
+  right: 30px;
+  top: 20px;
+}
+
+@media (width <= 375px) {
+  .decor {
+    right: 20px;
+    top: 10px;
+  }
 }
 
 .decor::before {

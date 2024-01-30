@@ -124,6 +124,12 @@ a:focus-visible {
   }
 }
 
+@media (width <= 375px) {
+  .main__title {
+    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
+}
+
 .header__subtitle {
   color: var(--heading-color);
   font-family: inherit;
@@ -139,6 +145,12 @@ a:focus-visible {
 @media (width <= 768px) {
   .header__subtitle {
     max-inline-size: 364px;
+  }
+}
+
+@media (width <= 375px) {
+  .header__subtitle {
+    max-inline-size: 355px;
   }
 }
 

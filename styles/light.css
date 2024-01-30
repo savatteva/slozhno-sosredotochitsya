@@ -8,7 +8,7 @@
   --button-color: #353430;
 } 
 
-.theme_light .decor {
+:root .theme_light .decor {
   display: none;
 }
 

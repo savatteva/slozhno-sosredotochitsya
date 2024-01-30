@@ -10,7 +10,7 @@
   block-size: 100vh;
 }
 
-@media (width <= 768px) {
+@media (width < 768px) {
   .page {
     padding: 10px;
   }
@@ -233,7 +233,7 @@ a:focus-visible {
   grid-template-columns: repeat(3, minmax(min-content, max-content));
 }
 
-@media (width < 768px) {
+@media (width <= 768px) {
   .images-layout {
     display: flex;
     flex-direction: column;

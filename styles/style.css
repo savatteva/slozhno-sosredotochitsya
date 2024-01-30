@@ -170,14 +170,20 @@ a:focus-visible {
 }
 
 .section__main-title {
-  color: var(--accent-color);
+  color: var(--button-color);
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
   font-style: inherit;
 }
 
-@media (768px <= width <= 1024px) {
+@media (width <= 1024px) {
+  .section__main-title {
+    max-inline-size: 315px;
+  }
+}
+
+@media (width <= 768px) {
   .section__main-title {
     max-inline-size: 236px;
   }

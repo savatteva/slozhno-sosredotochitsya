@@ -24,15 +24,15 @@
   padding: 1.5px 13px;
   color: var(--button-color);
   background-color: transparent;
-  border: 1px solid transparent;
+  outline: 1px solid transparent;
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--button-color);
+  outline: 1px solid var(--button-color);
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--low-opacity);
+  outline: 1px solid var(--low-opacity);
 }
 
 @media (prefers-color-scheme: light) {
@@ -50,9 +50,5 @@
   
   .theme_auto .decor {
     display: none;
-  }
-  
-  .header__theme-menu-button:hover {
-    border: 1px solid var(--low-opacity);
   }
 }

@@ -60,12 +60,13 @@
   line-height: inherit;
   font-style: inherit;
   font-weight: inherit;
-  border: 1px solid transparent;
+  outline: 1px solid transparent;
+  border: none;
   cursor: pointer;
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--button-color);
+  outline: 1px solid var(--button-color);
   pointer-events: none;
 }
 
@@ -83,11 +84,11 @@ a:hover {
 }
 
 a:focus-visible {
-  border: 1px solid var(--main-text-color);
+  outline: 1px solid var(--main-text-color);
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--low-opacity);
+  outline: 1px solid var(--low-opacity);
 }
 
 .main__title {

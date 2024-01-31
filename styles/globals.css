@@ -13,6 +13,7 @@ body {
   line-height: 130%;
   font-style: normal;
   font-weight: normal;
+  overflow: auto;
 }
 
 h1,

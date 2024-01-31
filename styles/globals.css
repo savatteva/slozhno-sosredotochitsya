@@ -8,12 +8,11 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: 'IBM Plex mono', monospace;
   font-size: clamp(1.125rem, 1.125rem + 0vw, 1.125rem);
   line-height: 130%;
   font-style: normal;
   font-weight: normal;
-  overflow: auto;
 }
 
 h1,
@@ -49,5 +48,5 @@ a {
 }
 
 a {
-  text-shadow: 2px 1px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }

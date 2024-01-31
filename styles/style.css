@@ -44,10 +44,17 @@
 }
 
 .header__theme-menu-button {
-  padding: 1.5px 13px;
-  background-color: transparent;
-  outline: 1px solid transparent;
   color: var(--button-color);
+  padding: 0.5px 13px;
+  background-color: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  outline: 1px solid transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .header__theme-menu-button_active {
@@ -92,19 +99,6 @@
 .header__theme-menu-list {
   display: flex;
   gap: 11.5px;
-}
-
-.header__theme-menu-button {
-  padding: 0.5px 13px;
-  background-color: transparent;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  outline: 1px solid transparent;
-  border: none;
-  cursor: pointer;
 }
 
 .header__theme-menu-button:focus,

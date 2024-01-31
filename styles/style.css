@@ -55,7 +55,6 @@
 .header__theme-menu-button {
   padding: 0.5px 13px;
   background-color: transparent;
-  border: none;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -67,6 +66,7 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
+  pointer-events: none;
 }
 
 .header__theme-menu-button:focus,
@@ -88,10 +88,6 @@ a:focus-visible {
 
 .header__theme-menu-button:hover {
   border: 1px solid var(--low-opacity);
-}
-
-.header__theme-menu-button_active {
-  pointer-events: none;
 }
 
 .main__title {

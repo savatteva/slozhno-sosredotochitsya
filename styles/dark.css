@@ -5,6 +5,7 @@
   --main-heading-color: #DB00FF;
   --bg-image: url(../images/cover-image-dark.png);
   --button-color: #FF0070;
+  --low-opacity: rgb(255, 0, 112, 0.4);
 }
 
 .page.theme_dark {
@@ -49,12 +50,16 @@
 .header__theme-menu-button {
   padding: 1.5px 13px;
   background-color: transparent;
-  border: none;
+  border: 1px solid transparent;
   color: var(--button-color);
 }
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button-color);
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--low-opacity);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,6 +72,10 @@
     --main-heading-color: #DB00FF;
     --bg-color: #000028;
     --button-color: #FF0070;
+    --low-opacity: rgb(255, 0, 112, 0.4);
   }
 
+  .header__theme-menu-button:hover {
+    border: 1px solid var(--low-opacity);
+  }
 }
